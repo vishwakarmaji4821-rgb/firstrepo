@@ -1,5 +1,4 @@
-
-
+// Interface Example program.
 public interface Bank1 {
 
     abstract void saving();

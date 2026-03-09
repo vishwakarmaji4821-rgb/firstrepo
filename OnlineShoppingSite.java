@@ -1,3 +1,4 @@
+// Method creation and object creation and method called by object.
 public class OnlineShoppingSite {
 
     public void myAccount(){

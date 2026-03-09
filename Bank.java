@@ -1,4 +1,4 @@
-// Abstract class
+// Abstract class simple program.
 public abstract  class Bank{
 
     abstract void Saving();

@@ -1,3 +1,4 @@
+// Method creation and object creation and method called by object.
 public class StudentApp {
     public void studentName(){
         System.out.println("Name : Pradeep Kumar");
@@ -22,7 +23,7 @@ public class StudentApp {
         Info.studentList();
         Info.studentMark();
         Info.studentAddress();
-        
+
     }
     
 }
