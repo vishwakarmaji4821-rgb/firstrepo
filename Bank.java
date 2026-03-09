@@ -1,10 +1,10 @@
-// Abstract class
+// Abstract class simple program.
 public abstract  class Bank{
 
-    abstract void saving();
-    abstract void current();
-    abstract void salary();
-    abstract void joint();
+    abstract void Saving();
+    abstract void Current();
+    abstract void Salary();
+    abstract void Joint();
     public void branchDetails(){
         System.out.println("Branch : Inodre");
     }
@@ -13,19 +13,19 @@ public abstract  class Bank{
 // super class
 class AxisBank extends Bank{
 
-    public void saving(){
+    public void Saving(){
         System.out.println("Saving reguler");
     }
 
-    public void current(){
+    public void Current(){
         System.out.println("Current ");
     }
 
-    public void salary(){
+    public void Salary(){
         System.out.println("salary");
     }
 
-    public void joint(){
+    public void Joint(){
         System.out.println("joint");
     }
 
@@ -33,10 +33,10 @@ class AxisBank extends Bank{
         AxisBank Info = new AxisBank();
 
         Info.branchDetails();
-        Info.saving();
-        Info.current();
-        Info.salary();
-        Info.joint();
+        Info.Saving();
+        Info.Current();
+        Info.Salary();
+        Info.Joint();
 
     }
 }
